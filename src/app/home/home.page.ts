@@ -12,11 +12,32 @@ export class HomePage {
 
   constructor() {}
 
-  escreva(){
+  soma(){
     var num1 = parseFloat(this.entrada1)
     var num2 = parseFloat(this.entrada2)
     var soma = num1 + num2
     this.mensagen = soma.toString()
   }
 
-}
+ sub(){ 
+    var num1 =parseFloat(this.entrada1)
+    var num2 =parseFloat(this.entrada2)
+    var soma = num1 - num2
+    this.mensagen = soma.toString()
+}  
+
+  mult(){
+    var num1 =parseFloat(this.entrada1)
+    var num2 =parseFloat(this.entrada2)
+    var soma = num1 * num2
+    this.mensagen = soma.toString()
+  }
+
+  divs(){
+    var num1 =parseFloat(this.entrada1)
+    var num2 =parseFloat(this.entrada2)
+    var soma = num1 / num2
+    this.mensagen = soma.toString()
+  }
+  }
+

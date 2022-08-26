@@ -16,10 +16,13 @@
     <div id="container">
         <ion-input placeholder="n1" [(ngModel)]="entrada1" name="entrada1"></ion-input>
         <ion-input placeholder="n2" [(ngModel)]="entrada2" name="entrada2"></ion-input>
-        <ion-button (click)="escreva()">clique aqui</ion-button>
+
+        <ion-button id="but" (click)="soma()">soma</ion-button>
+        <ion-button (click)="sub()">subtracao</ion-button>
+        <ion-button (click)="mult()">multiplicacao</ion-button>
+        <ion-button (click)="divs()">divisao</ion-button>
+
         <p>{{mensagen}}</p>
-
-
 
     </div>
 </ion-content>
