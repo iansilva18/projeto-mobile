@@ -1,19 +1,25 @@
 <ion-header [translucent]="true">
-    <ion-toolbar>
-        <ion-title>
-            Blank
-        </ion-title>
-    </ion-toolbar>
+  <ion-toolbar>
+    <ion-title>
+      android
+    </ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-header collapse="condense">
-        <ion-toolbar>
-            <ion-title size="large">Blank</ion-title>
-        </ion-toolbar>
-    </ion-header>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">ios</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-    <div id="container">
+  <div id="container">
+    <ion-input placeholder="n1"  [(ngModel)]="entrada1" name="entrada1"></ion-input>
+    <ion-input placeholder="n2" [(ngModel)]="entrada2" name="entrada2"></ion-input>
+    <ion-button (click)="escreva()">clique aqui</ion-button>
+    <p>{{mensagen}}</p>
 
-    </div>
+
+
+  </div>
 </ion-content>
